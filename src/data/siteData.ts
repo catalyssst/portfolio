@@ -88,6 +88,19 @@ export const projects: Project[] = [
       "Aplikasi monitoring performa karyawan untuk pelacakan target dan evaluasi berkala.",
     techStack: ["React", "NestJS", "MySQL"],
   },
+  {
+    id: "poolapack",
+    name: "Poolapack",
+    description: "Aplikasi e-commerce untuk kebutuhan transaksi online.",
+    techStack: ["Nuxt", "Vue", "Golang"],
+  },
+  {
+    id: "when-we-trip",
+    name: "When We Trip",
+    description:
+      "Aplikasi trip online untuk perencanaan dan pemesanan perjalanan.",
+    techStack: ["Nuxt", "Vue", "Golang"],
+  },
 ];
 
 export const navItems = [
