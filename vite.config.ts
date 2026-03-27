@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig(({ command }) => ({
   // Set base path for GitHub Pages project site deployment.
-  base: command === "build" ? "/CATALIST-PORTFOLIO/" : "/",
+  base: command === "build" ? "/portfolio/" : "/",
   plugins: [react(), tailwindcss()],
 }));
